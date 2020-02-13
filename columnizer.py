@@ -46,7 +46,8 @@ def main():
     # --colwidth defaults to 80
 
     # Define arguments.
-    parser.add_argument("file", type=str, dest='path' help="Path to a file.", required=True)
+    parser.add_argument("file", type=str, dest='path',
+                        required=True, help="Path to a file.")
     parser.add_argument("-cw", "--colwidth", default=80, type=int, dest='ColWidth'
                         help="Collumn width in characters. Default 80")
 
