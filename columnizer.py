@@ -48,7 +48,7 @@ def main():
     # Define arguments.
     parser.add_argument("file", type=str, dest='path',
                         required=True, help="Path to a file.")
-    parser.add_argument("-cw", "--colwidth", default=80, type=int, dest='ColWidth'
+    parser.add_argument("-cw", "--colwidth", default=80, type=int, dest='ColWidth',
                         help="Collumn width in characters. Default 80")
 
     # Read command
