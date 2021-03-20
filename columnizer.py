@@ -5,7 +5,7 @@ import os
 
 
 def check_file(file_name):
-    """Chekc file name and path"""
+    """Check file name and path"""
     if not check_path(file_name):
         quit()
     elif not check_filetype(file_name):
