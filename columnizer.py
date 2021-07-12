@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# SPDX-FileCopyrightText: 2021 2021 0verk1ll
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 import argparse
 import os
 
