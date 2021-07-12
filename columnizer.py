@@ -47,12 +47,12 @@ def main():
     parser = argparse.ArgumentParser(
         description="Changes text files to fit in a given collumn width.")
 
-    # --colwidth defaults to 80
+    # --width defaults to 80
 
     # Define arguments.
     parser.add_argument("file", type=str, dest='path',
                         required=True, help="Path to a file.")
-    parser.add_argument("-cw", "--colwidth", default=80, type=int, dest='ColWidth',
+    parser.add_argument("-w", "--width", default=80, type=int, dest='Width',
                         help="Collumn width in characters. Default 80")
 
     # Read command
