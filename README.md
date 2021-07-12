@@ -12,3 +12,4 @@ columnizer converts plain text files to have a specified collumn width.
 
 The default width is 80 collumns.
 
+I plan for columnizer to be similar to `fmt`.
